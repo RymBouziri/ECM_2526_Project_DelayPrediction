@@ -68,6 +68,14 @@ Key insights explored during EDA:
 
 ## Notebook 2 — Logistic Regression (`logistic_regression.ipynb`)
 
+### Objective
+
+The goal is to predict whether a train service will experience a **significant delay**, defined as a maximum delay strictly greater than **5 minutes**.
+
+The target variable is binary:
+- `1` → the service has a maximum delay **> 5 minutes**
+- `0` → the service is on time or has a minor delay (≤ 5 minutes)
+  
 ### Feature Engineering
 
 Time-based features were extracted to capture:
@@ -144,7 +152,3 @@ Tree-based ensemble models that natively handle class imbalance, non-linear rela
 
 ### Model 3 — LSTM (Long Short-Term Memory)
 A recurrent neural network architecture that can capture **sequential dependencies** between stops within a service. Since a train's delay at one stop is likely influenced by delays at previous stops, LSTM is a natural fit for this temporal, sequence-based structure of the data.
-
-## 👤 Author
-
-This project is part of an iterative machine learning pipeline for train delay prediction, progressing from interpretable baseline models to advanced deep learning architectures.
