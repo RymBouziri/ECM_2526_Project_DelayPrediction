@@ -1,11 +1,12 @@
-# Data Directory
+# Dossier des données
 
-Due to file size limitations, datasets are not stored in this repository.
+En raison de limitations de taille des fichiers, les datasets ne sont pas stockés dans ce dépôt.
 
-## Raw Data
+## Données brutes
 
-The original dataset can be obtained from this link: https://www.rijdendetreinen.nl/en/open-data/disruptions
+Le dataset original peut être obtenu à partir du lien suivant :  
+https://www.rijdendetreinen.nl/en/open-data/disruptions
 
-## Processed Data
+## Données traitées
 
-The cleaned dataset (`df_clean.csv`) is generated from the raw dataset using the preprocessing steps described in the EDA notebook.
+Le dataset nettoyé (`df_clean.csv`) est généré à partir du dataset brut en appliquant les étapes de prétraitement décrites dans le notebook d’EDA.
